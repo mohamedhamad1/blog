@@ -1,7 +1,6 @@
 const express = require('express')
 const router = express.Router();
 const Post = require('../models/Post');
-const isLogged = require('../../utiltes/isLogged');
 const adminLayout = '../views/layouts/admin';
 const userLayout = '../views/layouts/main';
 const locals = {
